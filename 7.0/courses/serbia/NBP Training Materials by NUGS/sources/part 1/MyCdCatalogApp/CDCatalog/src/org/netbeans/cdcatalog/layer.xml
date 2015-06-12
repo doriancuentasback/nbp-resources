@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN" "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="Actions">
+        <folder name="View">
+            <file name="org-netbeans-cdcatalog-ShowCdsAction.instance">
+                <attr name="delegate" newvalue="org.netbeans.cdcatalog.ShowCdsAction"/>
+                <attr name="displayName" bundlevalue="org.netbeans.cdcatalog.Bundle#CTL_ShowCdsAction"/>
+                <attr name="instanceCreate" methodvalue="org.openide.awt.Actions.alwaysEnabled"/>
+                <attr name="noIconInMenu" boolvalue="false"/>
+            </file>
+            <file name="org-netbeans-cdcatalog-NewCDWizardAction.instance">
+                <attr name="delegate" newvalue="org.netbeans.cdcatalog.NewCDWizardAction"/>
+                <attr name="displayName" bundlevalue="org.netbeans.cdcatalog.Bundle#CTL_NewCDWizardAction"/>
+                <attr name="instanceCreate" methodvalue="org.openide.awt.Actions.alwaysEnabled"/>
+                <attr name="noIconInMenu" boolvalue="false"/>
+            </file>
+        </folder>
+        <folder name="Window">
+            <file name="org-netbeans-cdcatalog-CDAction.instance">
+                <attr name="component" methodvalue="org.netbeans.cdcatalog.CDTopComponent.findInstance"/>
+                <attr name="displayName" bundlevalue="org.netbeans.cdcatalog.Bundle#CTL_CDAction"/>
+                <attr name="instanceCreate" methodvalue="org.openide.windows.TopComponent.openAction"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="View">
+            <file name="org-netbeans-cdcatalog-ShowCdsAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/View/org-netbeans-cdcatalog-ShowCdsAction.instance"/>
+                <attr name="position" intvalue="0"/>
+            </file>
+          <file name="org-netbeans-cdcatalog-NewCDWizardAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/View/org-netbeans-cdcatalog-NewCDWizardAction.instance"/>
+                <attr name="position" intvalue="0"/>
+            </file>
+        </folder>
+        <folder name="Window">
+            <file name="CDAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/Window/org-netbeans-cdcatalog-CDAction.instance"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Windows2">
+        <folder name="Components">
+            <file name="CDTopComponent.settings" url="CDTopComponentSettings.xml"/>
+        </folder>
+        <folder name="Modes">
+            <folder name="editor">
+                <file name="CDTopComponent.wstcref" url="CDTopComponentWstcref.xml"/>
+            </folder>
+        </folder>
+    </folder>
+</filesystem>

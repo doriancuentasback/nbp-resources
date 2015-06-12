@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+OpenIDE-Module-Layer: com/mycompany/javascripteditor/branding/layer.xml
+OpenIDE-Module-Localizing-Bundle: com/mycompany/javascripteditor/branding/Bundle.properties
+AutoUpdate-Essential-Module: true
+OpenIDE-Module-Needs: javax.script.ScriptEngine.freemarker

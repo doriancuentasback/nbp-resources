@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+OpenIDE-Module: org.benchmark.generator
+OpenIDE-Module-Layer: org/benchmark/generator/layer.xml
+OpenIDE-Module-Localizing-Bundle: org/benchmark/generator/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+

@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+OpenIDE-Module: org.netbeans.cdcatalog
+OpenIDE-Module-Layer: org/netbeans/cdcatalog/layer.xml
+OpenIDE-Module-Localizing-Bundle: org/netbeans/cdcatalog/Bundle.properties
+OpenIDE-Module-Requires: org.openide.windows.WindowManager
+OpenIDE-Module-Specification-Version: 1.0
+

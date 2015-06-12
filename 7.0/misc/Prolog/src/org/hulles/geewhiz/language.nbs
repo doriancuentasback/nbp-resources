@@ -1,0 +1,237 @@
+########################
+# Definition of tokens 
+#   thanks to "NetBeans Platform Schliemann Tutorial" author for initial syntax
+########################
+
+# Keywords 
+TOKEN:keyword:(
+    "true" | "fail" | "!" | "at_end_of_stream" |
+    "nl" | "repeat" | "halt" | "is" | "mod" | "rem"
+)
+
+TOKEN:special:( "." | ":-" | ",")
+
+
+# Predefined predicates
+TOKEN:function:(
+    "abolish" | "abort" | "absolute_file_name" |
+    "absolute_file_name" | "access_file" | 
+    "append" | "append" | "apply" | "apropos" |
+    "arg" | "arithmetic_function" | "assert" |
+    "assert" | "asserta" | "asserta" | "assertz" |
+    "assertz" | "at_halt" | "at_initialization" | 
+    "atom" | "atom_char" | "atom_chars" | "atom_length" |
+    "atom_to_term" | "atomic" |
+    "autoload" | "bagof" | "between" | "block" |
+    "break" | "call" | "call" | "call_dll_function" | 
+    "call_shared_object_function" | "character_count" |
+    "chdir" | "checklist" | "clause" | "clause" | 
+    "clause_property" | "close" | "close_dde_conversation" |
+    "close_dll" | "close_shared_object" | 
+    "compare" | "compiling" | "compound" | "concat" |
+    "concat_atom" | "consult" | "context_module" | 
+    "convert_time" | "copy_term" | "current_arithmetic_function" |
+    "current_atom" | "current_flag" | 
+    "current_foreign_library" | "current_functor" | "current_input" |
+    "current_key" | "current_module" | 
+    "current_module" | "current_op" | "current_output" |
+    "current_predicate" | "current_stream" |
+    "dde_current_connection" | "dde_current_service" | "dde_execute" |
+    "dde_register_service" | 
+    "dde_request" | "dde_unregister_service" | "debug" |
+    "debugging" | "default_module" | "delete" | 
+    "delete_file" | "discontiguous" | "display" | "displayq" |
+    "dwim_match" |
+    "dwim_predicate" | "dynamic" | "ed" | "ed" | "edit" |
+    "edit" | "edit_source" | "ensure_loaded" | "erase" | 
+    "exception" | "exists_directory" | "exists_file" | "exit" |
+    "expand_file_name" | 
+    "expand_file_search_path" | "expand_term" | "explain" |
+    "explain" | "export" | "export_list" |
+    "feature" | "file_base_name" | "file_directory_name" |
+    "file_search_path" | "fileerrors" | 
+    "findall" | "flag" | "flatten" | "float" | "flush" |
+    "flush_output" | "forall" | "foreign_file" | "format" | 
+    "free_variables" | "functor" | "garbage_collect" | "gensym" |
+    "get" | "get" | "get0" | "get_single_char" | 
+    "get_time" | "getenv" | "ground" | "hash_term" | "help" |
+    "history_depth" | "ignore" | "import" | 
+    "index" | "initialization" | "int_to_atom" | "integer" |
+    "intersection" | "is_absolute_file_name" | 
+    "is_list" | "is_set" | "keysort" | "last" | "leash" | "length" |
+    "library_directory" | "limit_stack" | 
+    "line_count" | "line_position" | "list_to_set" | "listing" |
+    "load_foreign" | "load_foreign_library" |
+    "make" | "make_fat_filemap" | "make_library_index" | "maplist" |
+    "member" | "merge" | "merge_set" | 
+    "module" | "module_transparent" | "msort" | "multifile" |
+    "name" | "nodebug" | "nonvar" | "noprotocol" | 
+    "nospy" | "nospyall" | "not" | "notrace" | "nth0" | "nth1" |
+    "nth_clause" | "number" | "number_chars" | 
+    "numbervars" | "once" | "op" | "open" | "open_dde_conversation" |
+    "open_null_stream" |
+    "open_shared_object" | "phrase" | "please" | "plus" | "portray" |
+    "portray_clause" | "predicate_property" | 
+    "predsort" | "preprocessor" | "print" | "profile" |
+    "profile_count" | "profiler" | "prolog" | 
+    "prolog_current_frame" | "prolog_frame_attribute" |
+    "prolog_load_context" | "prolog_skip_level" | 
+    "prolog_to_os_filename" | "prolog_trace_interception" |
+    "prompt1" | "prompt" | "proper_list" | "protocol" | 
+    "protocola" | "protocolling" | "put" | "qcompile" | "qload" |
+    "qsave_program" | "qsave_program" |
+    "read" | "read_clause" | "read_history" | "read_link" |
+    "read_variables" | "recorda" | "recorded" | "recordz" | 
+    "redefine_system_predicate" | "rename_file" | "require" |
+    "reset_profiler" | "restore" | "retract" | 
+    "retractall" | "reverse" | "same_file" | "save" | "save_program" |
+    "save_program" | "see" | "seeing" | "seen" | 
+    "select" | "set_feature" | "set_input" | "set_output" | "set_tty" |
+    "setarg" | "setenv" | "setof" | "sformat" | 
+    "shell" | "show_profile" | "sleep" | "sort" | "source_file" |
+    "source_location" |"spy" | "stack_parameter" | 
+    "statistics" | "stream_position" | "string" | "string_length" |
+    "string_to_atom" | "string_to_list" | 
+    "style_check" | "sublist" | "subset" | "substring" | "subtract" |
+    "succ" | "swritef" | "tab" | "tell" | "telling" | 
+    "term_expansion" | "term_to_atom" | "time" | "time_file" |
+    "tmp_file" | "told" | "trace" | "tracing" | 
+    "trim_stacks" | "tty_get_capability" | "tty_goto" | "tty_put" |
+    "ttyflush" | "union" | "unknown" | 
+    "unload_foreign_library" | "unsetenv" | "use_module" | "use_module" |
+    "var" | "visible" | "volatile"
+    "wait_for_input" | "wildcard_match" | "write" | "write_ln" |
+    "writef" | "writeq" |
+    "abs" | "acos" | "asin" | "atan" | "atan" | "ceil" | "ceiling" |
+    "cos" |
+    "cputime" | "e" | "exp" | "float" | "float_fractional_part" |
+    "float_integer_part" | 
+    "floor" | "integer" | "log" | "log10" | "max" | "min" | "random" |  
+    "round" | "truncate" | "pi" | "sign" | "sin" | "sqrt" | "tan" | "xor"
+)
+
+TOKEN:string:( "\"" [^ "\""]* "\"" )
+TOKEN:string:( "\'" [^ "\'"]* "\'" )
+TOKEN:list:( "[" - "]" )
+TOKEN:operator: (
+    [ "?"  "/" "*"  "-" "+"  "@" "#" "$" "%" "^" "\\"
+    ]
+)
+TOKEN:boolean: (
+    [ "<" ">" "=" ","  ";"  "&" "~" "|"
+    ]
+)
+
+TOKEN:separator: ( ["(" ")" "[" "]" "{" "}"] )
+
+TOKEN:variable:( ["A"-"Z" "_"] ["a"-"z" "A"-"Z" "0"-"9" "_"]* )
+TOKEN:identifier:( ["a"-"z"] ["a"-"z" "A"-"Z" "0"-"9" "_"]* )
+TOKEN:number:(  ["0"-"9"]+   ("." ["0"-"9"]+)? ("E" ("+" | "-" )? ["0"-"9"]+)? )
+TOKEN:whitespace: ( [" " "\t" "\n" "\r"]* )
+TOKEN:comment:( "/*" - "*/" )
+TOKEN:line_comment:( "%" [^ "\n" "\r"]* ["\n" "\r"]+ )
+
+# Syntax Coloring
+COLOR:function: {
+    default_coloring:"default";
+    font_type:"bold";
+}
+
+COLOR:line_comment: {
+    default_coloring:"comment";
+}
+
+COLOR:list: {
+    default_coloring:"string";
+}
+
+
+
+#####################
+# Syntax definition #
+#####################
+
+# Comments and whitespaces should be ignored
+SKIP:comment
+SKIP:line_comment
+SKIP:whitespace
+
+
+# Grammar definition
+
+S = (Statement)*;
+
+Statement = Structure ("." | ":-" ListOfStructures ".");
+
+
+ListOfStructures = Structure (BooleanOperation Structure)* ;
+
+Structure = Expression |  
+            <keyword>;
+
+Functor = <function> | <identifier>;
+
+Expression = BaseExpression ((Operation|"is"|"mod"|"rem") Expression)* |
+            "(" BaseExpression ((Operation|"is"|"mod"|"rem") Expression)* ")" ;
+
+Operation = (<operator>)+;
+BooleanOperation = (<boolean>)+ | "=.." | ","; 
+
+BaseExpression = <variable> | 
+                <list> | 
+                <string> | 
+                Function |
+                <number> ;
+
+Function = Functor ["(" ListOfStructures ")"];
+
+
+# error highlighting
+MARK:ERROR: {
+    type:"Error";
+    message:"Syntax error.";
+}
+
+MARK:error: {
+    type:"Error";
+    message:"Unexpected character.";
+}
+
+# brace completion
+COMPLETE "{:}"
+COMPLETE "(:)"
+COMPLETE "[:]"
+COMPLETE "\":\""
+COMPLETE "\':\'"
+
+
+# brace matching
+BRACE "{:}"
+BRACE "(:)"
+BRACE "[:]"
+BRACE "\":\""
+BRACE "\':\'"
+
+# indentation
+INDENT ".*(((:-)\\s*)[^.]*)"
+
+
+# code folding 
+FOLD:ListOfStructures: {
+    expand_type_action_name:"Expand clause body";
+    collapse_type_action_name:"Collapse clause body";
+}
+
+FOLD:comment: {
+    expand_type_action_name:"Expand Comments";
+    collapse_type_action_name:"Collapse Comments";
+}
+
+
+# navigator support
+NAVIGATOR:Statement: {
+    display_name: "$Structure$";
+    icon: org.hulles.geewhiz.PrologNBS.statementIcon;
+}
+
+

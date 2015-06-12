@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+OpenIDE-Module: org.myorg.abcfiletype
+OpenIDE-Module-Localizing-Bundle: org/myorg/abcfiletype/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+

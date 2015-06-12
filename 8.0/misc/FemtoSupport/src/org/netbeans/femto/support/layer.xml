@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN" "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="Projects">
+        <folder name="org-netbeans-modules-java-j2seproject">
+            <file name="ASources.instance">
+                <attr name="position" intvalue="100"/>
+                <attr name="instanceCreate" methodvalue="org.netbeans.modules.javacard.project.customizer.JCProjectCategoryProvider.create"/>
+            </file>
+            <!--            <folder name="Customizer">
+                <file name="JCSources.instance">
+                    <attr name="position" intvalue="100"/>
+                    <attr name="instanceCreate" methodvalue="org.netbeans.modules.javacard.project.customizer.JCProjectCategoryProvider.create"/>
+                </file>
+                <file name="JCDependencies.instance">
+                    <attr name="instanceCreate" methodvalue="org.netbeans.modules.javacard.project.customizer.JCProjectCategoryProvider.create"/>
+                    <attr name="position" intvalue="200"/>
+                </file>
+                <folder name="JCBuild">
+                    <attr name="position" intvalue="300"/>
+                    <file name="Compiling.instance">
+                        <attr name="displayName" bundlevalue="org.netbeans.modules.javacard.Bundle#Projects/org-netbeans-modules-javacard-clslibproject/Customizer/Build/Compiling.instance"/>
+                        <attr name="position" intvalue="100"/>
+                        <attr name="instanceCreate" methodvalue="org.netbeans.modules.javacard.project.customizer.JCProjectCategoryProvider.create"/>
+                    </file>
+                    <file name="Packaging.instance">
+                        <attr name="displayName" bundlevalue="org.netbeans.modules.javacard.Bundle#Projects/org-netbeans-modules-javacard-clslibproject/Customizer/Build/Packaging.instance"/>
+                        <attr name="position" intvalue="200"/>
+                        <attr name="instanceCreate" methodvalue="org.netbeans.modules.javacard.project.customizer.JCProjectCategoryProvider.create"/>
+                    </file>
+                    <file name="Security.instance">
+                        <attr name="displayName" bundlevalue="org.netbeans.modules.javacard.Bundle#Projects/org-netbeans-modules-javacard-clslibproject/Customizer/Build/Security.instance"/>
+                        <attr name="position" intvalue="300"/>
+                        <attr name="instanceCreate" methodvalue="org.netbeans.modules.javacard.project.customizer.JCProjectCategoryProvider.create"/>
+                    </file>
+                </folder>
+                <file name="JCRun.instance">
+                    <attr name="instanceCreate" methodvalue="org.netbeans.modules.javacard.project.customizer.JCProjectCategoryProvider.create"/>
+                    <attr name="position" intvalue="400"/>
+                </file>
+            </folder>-->
+        </folder>
+    </folder>
+</filesystem>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nbm>
+    <dependencies>
+        <dependency>
+            <id>org.netbeans.modules:org-netbeans-core-windows</id>
+            <type>impl</type>
+            <explicitValue>org.netbeans.core.windows/2 = 201207171143</explicitValue>
+        </dependency>
+    </dependencies>
+</nbm>

@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+OpenIDE-Module: org.demo.persistence
+OpenIDE-Module-Layer: org/demo/persistence/layer.xml
+OpenIDE-Module-Localizing-Bundle: org/demo/persistence/Bundle.properties
+OpenIDE-Module-Requires: org.openide.windows.WindowManager
+OpenIDE-Module-Specification-Version: 1.0
+

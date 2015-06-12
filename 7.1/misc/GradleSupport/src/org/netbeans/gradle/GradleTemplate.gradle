@@ -1,0 +1,21 @@
+apply plugin: "announce"
+apply plugin: "java"
+
+sourceSets {
+     main {
+         java {
+             srcDir 'src'
+         }
+         resources {
+             srcDir 'src'
+         }
+     }
+}
+
+task hello1 <<{
+    println 'hello world 1'
+}
+
+task hello2 <<{
+    println 'hello world 2'
+}

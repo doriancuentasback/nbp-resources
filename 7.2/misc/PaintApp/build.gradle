@@ -1,0 +1,17 @@
+subprojects {
+
+    apply plugin: "announce"
+    apply plugin: "java"
+
+    sourceSets {
+        main {
+            java {
+                srcDir 'src'
+            }
+            resources {
+                srcDir 'src'
+            }
+        }
+    }
+
+}

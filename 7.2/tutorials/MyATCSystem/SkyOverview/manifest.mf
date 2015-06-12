@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+OpenIDE-Module: org.myatc.sky.overview
+OpenIDE-Module-Layer: org/myatc/sky/overview/layer.xml
+OpenIDE-Module-Localizing-Bundle: org/myatc/sky/overview/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+

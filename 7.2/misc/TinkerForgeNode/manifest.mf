@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+OpenIDE-Module: org.netbeans.tfnode
+OpenIDE-Module-Layer: org/netbeans/tfnode/layer.xml
+OpenIDE-Module-Localizing-Bundle: org/netbeans/tfnode/Bundle.properties
+OpenIDE-Module-Requires: org.openide.windows.WindowManager
+OpenIDE-Module-Specification-Version: 1.0
+

@@ -1,0 +1,39 @@
+apply plugin: "announce"
+apply plugin: "java"
+
+sourceSets {
+     main {
+         java {
+             srcDir 'src'
+         }
+         resources {
+             srcDir 'src'
+         }
+     }
+}
+
+task (runSimple, dependsOn: 'classes', type: JavaExec) {
+    main = ''
+    classpath = sourceSets.main.runtimeClasspath
+}
+
+task hello1 <<{
+    println 'hello world 1'
+}
+
+task hello2 <<{
+    println 'hello world 2'
+}
+
+repositories {
+
+   maven {
+	url 'https://github.com/kelemen/JTrim-repo/raw/master/releases/'
+   }
+   mavenCentral()
+
+}
+
+dependencies {
+	compile group: 'org.jtrim', name: 'jtrim-async', version: '1.1.1-alpha'
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN" "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    
+    <folder name = "Items">
+        <folder name="Header">
+            <attr name="position" intvalue="10"/>
+            <file name="logo.item" url="items/logo.item"/>
+        </folder>
+        <folder name="Body">
+            <attr name="position" intvalue="20"/>
+            <file name="banner.item" url="items/banner.item"/>
+            <file name="advert.item" url="items/advert.item"/>
+        </folder>
+        <folder name="Footer">
+            <attr name="position" intvalue="30"/>
+            <file name="copyright.item" url="items/copyright.item"/>
+        </folder>
+    </folder>
+    
+</filesystem>

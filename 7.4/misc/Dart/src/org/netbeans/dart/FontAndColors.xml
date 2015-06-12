@@ -1,0 +1,14 @@
+<!DOCTYPE fontscolors PUBLIC "-//NetBeans//DTD Editor Fonts and Colors settings 1.1//EN" "http://www.netbeans.org/dtds/EditorFontsColors-1_1.dtd">
+<fontscolors>
+    <fontcolor name="keyword" foreColor="black"/>
+    <fontcolor name="language" foreColor="FF993366">
+        <font style="bold" />
+    </fontcolor>
+    <fontcolor name="whitespace" foreColor="FF6600CC"/>
+    <fontcolor name="string" foreColor="blue">
+        <font style="bold" />
+    </fontcolor>
+    <fontcolor name="comment" foreColor="gray"/>
+    <fontcolor name="number" foreColor="FF999999"/>
+    <fontcolor name="separator" foreColor="black"/>
+</fontscolors> 

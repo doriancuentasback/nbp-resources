@@ -1,0 +1,44 @@
+PARSER_BEGIN(MovieQueryParser)
+
+package org.movie.query.dsl.generated;
+
+public class MovieQueryParser {
+
+}
+PARSER_END(MovieQueryParser)
+
+
+TOKEN :
+{
+  < WHITESPACE:
+  " "
+| "\t"
+| "\n"
+| "\r"
+| "\f">
+}
+
+
+TOKEN: /*RESERVED TOKENS FOR MovieQueryParser */
+{
+      <AND: "and">
+   |  <OR:  "or">
+   |  <MOVIE: "title">
+   |  <ACTOR: "actor">
+   |  <DIRECTOR: "director">
+   |  <KEYWORD: "keyword">
+   |  <QUOTE: "\"">
+   |  <SINGLE_QUOTE: "\'">
+   |  <SEMI: ";">
+   |  <COMMA: ",">
+   |  <LPAREN: "(">
+   |  <RPAREN: ")">
+   |  <EQUALS: "=">
+   |  <NOTEQUAL: "<>">
+}
+
+TOKEN : /* the keywords and comparators - QUOTEDVALUE accounts for escaped quotes as well */
+{
+        < STRING : (["A"-"Z","a"-"z","0"-"9"])+ >
+|       < QUOTED_STRING: ["\"","\'"] (~["\"","\'"])+ ["\"","\'"] >
+}

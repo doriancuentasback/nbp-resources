@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+OpenIDE-Module: com.bbn.openmap
+OpenIDE-Module-Localizing-Bundle: com/bbn/openmap/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+

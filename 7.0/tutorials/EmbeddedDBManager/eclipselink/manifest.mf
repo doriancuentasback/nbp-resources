@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+OpenIDE-Module: javax.persistence
+OpenIDE-Module-Localizing-Bundle: javax/persistence/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+

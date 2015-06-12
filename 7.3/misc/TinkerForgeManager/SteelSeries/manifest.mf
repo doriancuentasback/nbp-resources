@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+OpenIDE-Module: eu.hansolo.steelseries
+OpenIDE-Module-Localizing-Bundle: eu/hansolo/steelseries/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+

@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+OpenIDE-Module: org.netbeans.modules.copyfqn
+OpenIDE-Module-Localizing-Bundle: org/netbeans/modules/copyfqn/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+

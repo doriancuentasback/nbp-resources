@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN" "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="Actions">
+        <folder name="File">
+            <file name="org-hulles-geewhiz-CompileProlog.instance"/>
+        </folder>
+        <folder name="Other">
+            <file name="org-hulles-geewhiz-ShowDiagram.instance"/>
+        </folder>
+    </folder>
+    <folder name="Editors">
+        <folder name="text">
+            <folder name="x-prolog">
+                <file name="language.nbs" url="language.nbs">
+                    <attr name="icon" stringvalue="org/hulles/geewhiz/prolog-star.png"/>
+                </file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Loaders">
+        <folder name="text">
+            <folder name="x-prolog">
+                <folder name="Actions">
+                    <file name="org-openide-actions-CopyAction.instance">
+                        <attr name="position" intvalue="500"/>
+                    </file>
+                    <file name="org-openide-actions-CutAction.instance">
+                        <attr name="position" intvalue="400"/>
+                    </file>
+                    <file name="org-openide-actions-DeleteAction.instance">
+                        <attr name="position" intvalue="700"/>
+                    </file>
+                    <file name="org-openide-actions-FileSystemAction.instance">
+                        <attr name="position" intvalue="200"/>
+                    </file>
+                    <file name="org-openide-actions-OpenAction.instance">
+                        <attr name="position" intvalue="100"/>
+                    </file>
+                    <file name="org-openide-actions-PropertiesAction.instance">
+                        <attr name="position" intvalue="1300"/>
+                    </file>
+                    <file name="org-openide-actions-RenameAction.instance">
+                        <attr name="position" intvalue="800"/>
+                    </file>
+                    <file name="org-openide-actions-SaveAsTemplateAction.instance">
+                        <attr name="position" intvalue="1000"/>
+                    </file>
+                    <file name="org-openide-actions-ToolsAction.instance">
+                        <attr name="position" intvalue="1200"/>
+                    </file>
+                    <file name="sep-1.instance">
+                        <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                        <attr name="position" intvalue="300"/>
+                    </file>
+                    <file name="sep-2.instance">
+                        <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                        <attr name="position" intvalue="600"/>
+                    </file>
+                    <file name="sep-3.instance">
+                        <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                        <attr name="position" intvalue="900"/>
+                    </file>
+                    <file name="sep-4.instance">
+                        <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                        <attr name="position" intvalue="1100"/>
+                    </file>
+                </folder>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="View">
+            <file name="org-hulles-geewhiz-ShowDiagram-separatorAfter.instance">
+                <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                <attr name="position" intvalue="375"/>
+            </file>
+            <file name="org-hulles-geewhiz-ShowDiagram.shadow">
+                <attr name="originalFile" stringvalue="Actions/Other/org-hulles-geewhiz-ShowDiagram.instance"/>
+                <attr name="position" intvalue="350"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Navigator">
+        <folder name="Panels">
+            <folder name="text">
+                <folder name="x-prolog">
+                    <file name="org-netbeans-modules-languages-features-LanguagesNavigator.instance"/>
+                </folder>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Services">
+        <folder name="MIMEResolver">
+            <file name="PrologResolver.xml" url="PrologResolver.xml">
+                <attr name="SystemFileSystem.localizingBundle" stringvalue="org.hulles.geewhiz.Bundle"/>
+            </file>
+            <file name="text-x-prolog-mime-resolver.xml" url="text-x-prolog-mime-resolver.xml"/>
+        </folder>
+    </folder>
+    <folder name="Templates">
+        <folder name="Other">
+            <file name="PrologTemplate.pro" url="PrologTemplate.pro">
+                <attr name="SystemFileSystem.localizingBundle" stringvalue="org.hulles.geewhiz.Bundle"/>
+                <attr name="template" boolvalue="true"/>
+                <attr name="templateWizardURL" urlvalue="nbresloc:/org/hulles/geewhiz/PrologTemplate.html"/>
+                <attr name="javax.script.ScriptEngine" stringvalue="freemarker"/>
+            </file>
+        </folder>
+        <folder name="Project">
+            <folder name="Prolog">
+                <file name="NewProjectProject.zip" url="NewProjectProject.zip">
+                    <attr name="SystemFileSystem.icon" urlvalue="nbresloc:/org/hulles/geewhiz/prolog-star.png"/>
+                    <attr name="SystemFileSystem.localizingBundle" stringvalue="org.hulles.geewhiz.Bundle"/>
+                    <attr name="displayName" bundlevalue="org.hulles.geewhiz.Bundle#Templates/Project/Prolog/NewProjectProject.zip"/>
+                    <attr name="instantiatingIterator" methodvalue="org.hulles.geewhiz.NewProjectWizardIterator.createIterator"/>
+                    <attr name="instantiatingWizardURL" urlvalue="nbresloc:/org/hulles/geewhiz/NewProjectDescription.html"/>
+                    <attr name="template" boolvalue="true"/>
+                </file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Toolbars">
+        <folder name="Build">
+            <file name="org-hulles-geewhiz-CompileProlog.shadow">
+                <attr name="originalFile" stringvalue="Actions/File/org-hulles-geewhiz-CompileProlog.instance"/>
+                <attr name="position" intvalue="500"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Windows2">
+        <folder name="Components">
+            <file name="VPrologSatelliteTopComponent.settings" url="VPrologSatelliteTopComponentSettings.xml"/>
+            <file name="VPrologTopComponent.settings" url="VPrologTopComponentSettings.xml"/>
+        </folder>
+        <folder name="Modes">
+            <folder name="editor">
+                <file name="VPrologTopComponent.wstcref" url="VPrologTopComponentWstcref.xml"/>
+            </folder>
+            <folder name="navigator">
+                <file name="VPrologSatelliteTopComponent.wstcref" url="VPrologSatelliteTopComponentWstcref.xml"/>
+            </folder>
+        </folder>
+    </folder>
+</filesystem>

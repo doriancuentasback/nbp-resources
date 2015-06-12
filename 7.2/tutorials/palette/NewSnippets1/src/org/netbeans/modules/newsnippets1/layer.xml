@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN" "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+&lt;folder name="HTMLPalette"&gt;
+    &lt;folder name="HTML"&gt;
+        &lt;file name="BR.xml" url="BR.xml"&gt;
+            &lt;attr name="position" intvalue="150"/&gt;
+        &lt;/file&gt;
+    &lt;/folder&gt;
+&lt;/folder&gt;
+</filesystem>

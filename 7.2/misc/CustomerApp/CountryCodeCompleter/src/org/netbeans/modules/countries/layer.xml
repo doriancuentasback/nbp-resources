@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN" "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="Menu">
+        <file name="GoTo_hidden"/>
+        <file name="Source_hidden"/>
+    </folder>
+    <folder name="OptionsDialog">
+        <folder name="Editor">
+            <file name="CodeTemplates.instance_hidden"/>
+            <file name="Formatting.instance_hidden"/>
+            <file name="Formatting_hidden"/>
+            <file name="General.instance_hidden"/>
+            <file name="Hints.instance_hidden"/>
+            <file name="Hints_hidden"/>
+            <file name="Macros.instance_hidden"/>
+            <file name="MarkOccurrences.instance_hidden"/>
+            <file name="MarkOccurrences_hidden"/>
+            <file name="OnSave.instance_hidden"/>
+            <file name="Spellchecker.instance_hidden"/>
+        </folder>
+        <file name="FontsAndColors.instance_hidden"/>
+    </folder>
+</filesystem>

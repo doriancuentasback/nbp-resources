@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+OpenIDE-Module: org.palette.contrib.dick
+OpenIDE-Module-Layer: org/palette/contrib/dick/layer.xml
+OpenIDE-Module-Localizing-Bundle: org/palette/contrib/dick/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+

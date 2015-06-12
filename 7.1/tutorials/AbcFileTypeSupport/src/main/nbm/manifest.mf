@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+OpenIDE-Module-Layer: com/mycompany/abcfiletypesupport/layer.xml
+OpenIDE-Module-Localizing-Bundle: com/mycompany/abcfiletypesupport/Bundle.properties

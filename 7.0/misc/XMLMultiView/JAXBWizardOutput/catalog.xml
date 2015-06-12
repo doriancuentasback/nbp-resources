@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="file:/home/geertjan/NetBeansProjects/api-samples/versions/7.0/misc/XMLMultiView/JAXBWizardOutput/src/jaxbwizardoutput/InputDTD.dtd" uri="xml-resources/jaxb/Input/InputDTD.dtd"/>
+</catalog>

@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+OpenIDE-Module: org.cms.branding
+OpenIDE-Module-Layer: org/cms/branding/layer.xml
+OpenIDE-Module-Localizing-Bundle: org/cms/branding/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+

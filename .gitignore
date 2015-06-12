@@ -1,0 +1,19 @@
+#gitignore files
+#dorian cuentas
+
+.hg/
+build/
+*.class
+
+# Netbeans
+nbproject
+.nbproject
+.nbproject/*
+nbproject/*
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml

@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+OpenIDE-Module: org.netbeans.proguard
+OpenIDE-Module-Layer: org/netbeans/proguard/layer.xml
+OpenIDE-Module-Localizing-Bundle: org/netbeans/proguard/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.2
+

@@ -1,0 +1,17 @@
+&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE editor_palette_item PUBLIC "-//NetBeans//Editor Palette Item 1.1//EN"
+  "http://www.netbeans.org/dtds/editor-palette-item-1_1.dtd"&gt;
+
+&lt;editor_palette_item version="1.0"&gt;
+
+    &lt;body&gt;&lt;![CDATA[ &lt;br&gt;  ]]&gt;&lt;/body&gt;
+
+    &lt;icon16 urlvalue="org/netbeans/modules/newsnippets1/BR16.png" /&gt;
+    &lt;icon32 urlvalue="org/netbeans/modules/newsnippets1/BR32.png" /&gt;
+   
+    &lt;inline-description&gt;
+       &lt;display-name&gt;New Line&lt;/display-name&gt;
+       &lt;tooltip&gt;&lt;![CDATA[ &lt;br&gt;  ]]&gt;&lt;/tooltip&gt; 
+    &lt;/inline-description&gt;
+               
+&lt;/editor_palette_item&gt;

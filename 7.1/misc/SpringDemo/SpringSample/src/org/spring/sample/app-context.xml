@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans 
+       http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+           
+    <bean id="mainPanel" class="org.spring.sample.MyJPanel" init-method="init">
+        <property name="panelComponents">
+            <list>
+                <ref bean="textField1"/>
+                <ref bean="textField2"/>
+                <ref bean="textField3"/>
+                <ref bean="buttonPanel"/>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="buttonPanel" class="org.spring.sample.MyJPanel" init-method="init">
+        <property name="panelComponents">
+            <list>
+                <ref bean="button1"/>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="textField1" class="org.spring.sample.MyJTextField" init-method="init">
+        <property name="text">
+            <value>text field 1</value>
+        </property>
+    </bean>
+
+    <bean id="textField2" class="org.spring.sample.MyJTextField" init-method="init">
+        <property name="text">
+            <value>text field 2</value>
+        </property>
+    </bean>
+
+    <bean id="textField3" class="org.spring.sample.MyJTextField" init-method="init">
+        <property name="text">
+            <value>text field 3</value>
+        </property>
+    </bean>
+
+    <bean id="button1" class="org.spring.sample.MyJButton" init-method="init">
+        <property name="actionListener">
+            <ref bean="myButtonActionListener"/>
+        </property>
+        <property name="text">
+            <value>Click me!</value>
+        </property>
+    </bean>
+
+    <bean id="myButtonActionListener" class="org.spring.sample.MyActionListener"/>
+
+</beans>

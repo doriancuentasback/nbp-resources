@@ -1,0 +1,22 @@
+netbeansHome = 'C://Program Files//NetBeans 7.2 RC1'
+
+dependencies {
+    compile files("$rootDir/ColorChooser/release/modules/ext/ColorChooser.jar") 
+    def projectXml = new XmlParser().parse("nbproject/project.xml")
+       projectXml.configuration.data."module-dependencies".dependency."code-name-base".each {
+       if (it.text().equals('org.openide.filesystems')) {
+         def dep = "$netbeansHome/platform/core/"+it.text().replace('.','-')+'.jar'
+         compile files(dep)
+       } else if (it.text().equals('org.openide.util.lookup') || it.text().equals('org.openide.util')) {
+         def dep = "$netbeansHome/platform/lib/"+it.text().replace('.','-')+'.jar'
+         compile files(dep)
+       } else {
+         def dep = "$netbeansHome/platform/modules/"+it.text().replace('.','-')+'.jar'
+         compile files(dep)
+       }
+    }
+}
+
+task show << {
+    configurations.compile.each { dep -> println "$dep ${dep.isFile()}" }
+}

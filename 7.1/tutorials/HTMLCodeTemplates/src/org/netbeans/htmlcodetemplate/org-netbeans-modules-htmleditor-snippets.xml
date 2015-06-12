@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE codetemplates PUBLIC "-//NetBeans//DTD Editor Code Templates settings 1.0//EN" "http://www.netbeans.org/dtds/EditorCodeTemplates-1_0.dtd">
+<codetemplates>
+    <codetemplate abbreviation="snf" xml:space="preserve">
+        <code>Select "New File" (Ctrl-N) in the File menu</code>
+        <description>Code template for selecting "New File".</description>
+    </codetemplate>
+    <codetemplate abbreviation="pe" xml:space="preserve">
+        <code>Press Enter.</code>
+        <description>Code template for clicking the "Enter" key.</description>
+    </codetemplate>
+</codetemplates>

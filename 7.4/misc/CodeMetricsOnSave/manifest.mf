@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+OpenIDE-Module: org.metrics.onsave
+OpenIDE-Module-Layer: org/metrics/onsave/layer.xml
+OpenIDE-Module-Localizing-Bundle: org/metrics/onsave/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+

@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+OpenIDE-Module: org.pallete.contrib.tom
+OpenIDE-Module-Layer: org/palette/contrib/tom/layer.xml
+OpenIDE-Module-Localizing-Bundle: org/palette/contrib/tom/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+

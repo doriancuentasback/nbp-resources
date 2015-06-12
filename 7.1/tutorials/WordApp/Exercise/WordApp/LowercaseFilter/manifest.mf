@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+OpenIDE-Module: org.word.editor.lowercase
+OpenIDE-Module-Localizing-Bundle: org/word/editor/lowercase/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+

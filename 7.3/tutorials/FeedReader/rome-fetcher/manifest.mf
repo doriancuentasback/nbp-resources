@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+OpenIDE-Module: org.fetcher
+OpenIDE-Module-Localizing-Bundle: org/fetcher/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+

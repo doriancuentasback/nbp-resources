@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN" "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="Actions">
+        <folder name="Window">
+            <file name="org-demo-persistence-PersistenceDemoAction.instance">
+                <attr name="component" methodvalue="org.demo.persistence.PersistenceDemoTopComponent.findInstance"/>
+                <attr name="displayName" bundlevalue="org.demo.persistence.Bundle#CTL_PersistenceDemoAction"/>
+                <attr name="instanceCreate" methodvalue="org.openide.windows.TopComponent.openAction"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="Window">
+            <file name="PersistenceDemoAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/Window/org-demo-persistence-PersistenceDemoAction.instance"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Windows2">
+        <folder name="Components">
+            <file name="PersistenceDemoTopComponent.settings" url="PersistenceDemoTopComponentSettings.xml"/>
+        </folder>
+        <folder name="Modes">
+            <folder name="editor">
+                <file name="PersistenceDemoTopComponent.wstcref" url="PersistenceDemoTopComponentWstcref.xml"/>
+            </folder>
+        </folder>
+    </folder>
+</filesystem>

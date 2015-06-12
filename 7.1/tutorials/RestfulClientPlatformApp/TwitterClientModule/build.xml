@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- You may freely edit this file. See harness/README in the NetBeans platform -->
+<!-- for some information on what you could do (e.g. targets to override). -->
+<!-- If you delete this file and reopen the project it will be recreated. -->
+<project basedir="." default="netbeans" name="org.my.twitter.friends">
+    <description>Builds, tests, and runs the project org.my.twitter.friends.</description>
+    <import file="nbproject/build-impl.xml"/>
+<!--Target required for SAAS(REST) services: XJCTask initialization-->
+<target name="saas-init-xjc">
+<taskdef classname="com.sun.tools.xjc.XJCTask" name="xjc">
+<classpath path="${libs.jaxb.classpath}"/>
+</taskdef>
+</target>
+
+<!--Target required for SAAS(REST) services: data types generation-->
+<target depends="saas-init-xjc" name="saas.xjc.twitter.twitteroauth">
+<xjc destdir="src" package="twitter.twitteroauth.twitterresponse" schema="src/META-INF/TwitterResponse.xsd" target="2.1"/>
+</target>
+
+</project>

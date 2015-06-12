@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+OpenIDE-Module: org.scheduler.model
+OpenIDE-Module-Localizing-Bundle: org/scheduler/model/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+

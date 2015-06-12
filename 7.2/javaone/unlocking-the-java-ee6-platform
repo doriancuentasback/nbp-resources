@@ -1,0 +1,89 @@
+
+
+How to create Java EE 6 application with Maven, PrimeFaces, GlassFish, NetBeans.
+
+Preparation:
+
+Have NetBeans IDE started up.
+Have GlassFish started up.
+
+Part 1: Get Started
+
+1. Show database in Services window.
+
+2. Create new Maven web application: CustomerManager, choose Server, Java EE number.
+
+3. Explore the generated project -- POM, JSP page (delete it).
+
+4. Go to Properties window, to Frameworks panel, add JavaServer Faces, choose Facelets, PrimeFaces component library.
+
+5. Explore web.xml file, points to index.html, which links to welcomePrimeFaces file. 
+
+6. Deploy the application. Show PrimeFaces result.
+
+Part 2: Model Layer
+
+1. Generate entity classes from the database: from Customer table.
+
+2. Explore the generated entities, talk about JPA and Bean Validation specification, show persistence.xml.
+
+3. Create servlet to test database connection and show Servlet 3.0 enhancements.
+
+4. Call the Entity Manager.
+
+5. Discuss the generated code. Change persist to getEntityManager.
+
+protected EntityManager getEntityManager() {
+    try {
+        Context ctx = (Context) new InitialContext().lookup("java:comp/env");
+        utx.begin();
+        return (EntityManager) ctx.lookup("persistence/LogicalName");
+    } catch (Exception e) {
+        Logger.getLogger(getClass().getName()).log(Level.SEVERE, "exception caught", e);
+        throw new RuntimeException(e);
+    }
+}
+
+out.println(getEntityManager().createNamedQuery("Customer.findAll").getResultList());
+
+6. Change the toString in Customer.
+
+Part 3: Controler Layer
+
+1. New > Other > Enterprise Java Beans > Session Bean.
+
+2. Copy the getEntityManager.
+
+3. Create a new business method getCustomer of type List<Customer>.
+
+    public List<Customer> getCustomers() {
+        return getEntityManager().createNamedQuery("Customer.findAll").getResultList();
+    }
+
+4. Create a new servlet to check whether session bean works.
+
+5. Call Enterprise Bean.
+
+6. out.println(customerSessionBean.getCustomers());
+
+Part 4: Visual Layer
+
+1. Going to change:
+
+                <p:layoutUnit position="center">
+                    Welcome to PrimeFaces
+                </p:layoutUnit>
+
+2. Use JSF Data Table from Insert Code.
+
+3. Cannot access our session bean because it is not injectable yet.
+
+4. CDI specification, add @Named to the bean. Add import and create beans.xml.
+
+5. Add columns:
+
+<h:dataTable value="#{customerSessionBean.customers}" var="item">
+    <h:column>${item.name}</h:column>
+    <h:column>${item.city}</h:column>
+</h:dataTable>
+

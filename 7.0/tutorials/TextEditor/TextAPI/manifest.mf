@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+OpenIDE-Module: sv.text.api
+OpenIDE-Module-Localizing-Bundle: sv/text/api/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+

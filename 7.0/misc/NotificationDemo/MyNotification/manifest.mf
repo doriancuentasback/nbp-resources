@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+OpenIDE-Module: org.my.notification
+OpenIDE-Module-Install: org/my/notification/Installer.class
+OpenIDE-Module-Localizing-Bundle: org/my/notification/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+

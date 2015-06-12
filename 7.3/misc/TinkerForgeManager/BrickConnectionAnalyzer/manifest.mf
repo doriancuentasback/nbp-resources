@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+OpenIDE-Module: de.damaico.brick.connectionanalyzer
+OpenIDE-Module-Localizing-Bundle: de/damaico/brick/connectionanalyzer/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+

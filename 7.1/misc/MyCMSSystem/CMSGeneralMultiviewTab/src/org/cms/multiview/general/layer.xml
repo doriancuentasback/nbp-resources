@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN" "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="multiviews">
+        <file name="org-cms-multiview-general-GeneralMultiviewDescription">
+            <attr name="multiview" newvalue="org.cms.multiview.general.GeneralMultiviewDescription"/>
+            <attr name="position" intvalue="100"/>
+        </file>
+    </folder>
+</filesystem>

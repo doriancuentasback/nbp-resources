@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN" "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    
+    <folder name="Povray">
+
+        <folder name="RendererSettings">
+
+        <!-- Declare a file, with its content provided by the URL.  This
+                 will be the command line arguments for 1024x768 high quality
+                 rendering -->
+            <file name="1024x768hq.properties" url="defaults/1024x768hq.properties">
+                <attr name="SystemFileSystem.localizingBundle"
+                  stringvalue="org.netbeans.examples.modules.povproject.defaults.Bundle"/>
+            </file>
+        <!-- This is an ordering attribute—it determines that the
+                 DataFolder (but *not* the FileObject) for this folder will return
+                 its child DataObjects (and thus also its Node's children) in 
+                 a specific order—in this case we are specifying that 
+                 1024x768hq must come before 1024x768.properties. -->
+            <attr name="1024x768hq.properties/1024x768.properties" boolvalue="true"/>
+            <file name="1024x768.properties" url="defaults/1024x768.properties">
+                <attr name="SystemFileSystem.localizingBundle"
+                  stringvalue="org.netbeans.examples.modules.povproject.defaults.Bundle"/>
+            </file>
+
+            <attr name="1024x768.properties/640x480hq.properties" boolvalue="true"/>
+            <file name="640x480hq.properties" url="defaults/640x480hq.properties">
+                <attr name="SystemFileSystem.localizingBundle"
+                  stringvalue="org.netbeans.examples.modules.povproject.defaults.Bundle"/>
+            </file>
+
+            <attr name="640x480hq.properties/640x480.properties" boolvalue="true"/>
+            <file name="640x480.properties" url="defaults/640x480.properties">
+                <attr name="SystemFileSystem.localizingBundle"
+                  stringvalue="org.netbeans.examples.modules.povproject.defaults.Bundle"/>
+            </file>
+
+            <attr name="640x480.properties/320x200.properties" boolvalue="true"/>
+            <file name="320x200.properties" url="defaults/320x200.properties">
+                <attr name="SystemFileSystem.localizingBundle"
+                  stringvalue="org.netbeans.examples.modules.povproject.defaults.Bundle"/>
+            </file>
+
+            <attr name="320x200.properties/160x100.properties" boolvalue="true"/>
+            <file name="160x100.properties" url="defaults/160x100.properties">
+                <attr name="SystemFileSystem.localizingBundle"
+                  stringvalue="org.netbeans.examples.modules.povproject.defaults.Bundle"/>
+            </file>
+
+        </folder>
+
+    </folder>
+    
+</filesystem>

@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+OpenIDE-Module: org.news.domain
+OpenIDE-Module-Localizing-Bundle: org/news/domain/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+

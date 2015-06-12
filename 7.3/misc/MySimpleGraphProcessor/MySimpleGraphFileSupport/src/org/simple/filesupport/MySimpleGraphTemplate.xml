@@ -1,0 +1,8 @@
+<graph caption="Monthly Revenue (in US Dollars)">
+   <set name="Jan" value="25000" />
+   <set name="Feb" value="35000" />
+   <set name="Mar" value="42300" />
+   <set name="Apr" value="35300" />
+   <set name="May" value="31300" />
+   <set name="Jun" value="37300" />
+</graph>

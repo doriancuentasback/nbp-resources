@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+OpenIDE-Module-Layer: com/mycompany/cmsbackoffice2/branding/layer.xml
+OpenIDE-Module-Localizing-Bundle: com/mycompany/cmsbackoffice2/branding/Bundle.properties
+AutoUpdate-Essential-Module: true
+OpenIDE-Module-Needs: javax.script.ScriptEngine.freemarker

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="org.netbeans.proguard" default="obfuscate" basedir=".">
+
+    <description>Builds, tests, and runs the project org.netbeans.proguard.</description>
+    
+    <import file="nbproject/build-impl.xml"/>
+    <property file="${basedir}/build.properties"/>
+
+    <target name="obfuscate" depends="build-zip" description="obfuscate">
+        
+        <taskdef resource="proguard/ant/task.properties"
+             classpath="proguard.jar" />
+
+        <echo message="Obfuscating dist/${app.name}/${app.name}/${app.name}/modules/"/>
+        
+        <unzip src="dist/${app.name}.zip" dest="dist/${app.name}"/>
+        
+        <mkdir dir="dist/${app.name}/${app.name}/${app.name}/processed_jars"/>
+        
+        <proguard printmapping="proguard.map"
+              renamesourcefileattribute="SourceFile" ignorewarnings="true">
+
+            <injar  path="dist/${app.name}/${app.name}/${app.name}/modules" />
+            <outjar file="dist/${app.name}/${app.name}/${app.name}/processed_jars" />
+            
+            <libraryjar file="${java.home}/lib/rt.jar" />
+            <libraryjar path="dist/${app.name}/${app.name}/platform"/>
+            <libraryjar path="dist/${app.name}/${app.name}/${app.name}/modules"/>
+            <libraryjar path="dist/${app.name}/${app.name}/${app.name}/modules/ext"/>
+
+            <keepattribute name="InnerClasses" />
+            <keepattribute name="SourceFile" />
+            <keepattribute name="LineNumberTable" />
+            <keepattribute name="Deprecated" />
+            <keepattribute name="*Annotation*" />
+            <keepattribute name="Signature" />
+
+            <keep access="public">
+                <field  access="public protected" />
+                <method access="public protected" />
+            </keep>
+
+            <keepclassmembernames access="public">
+                <method type      ="java.lang.Class"
+                    name      ="class$"
+                    parameters="java.lang.String" />
+                <method type      ="java.lang.Class"
+                    name      ="class$"
+                    parameters="java.lang.String,boolean" />
+            </keepclassmembernames>
+
+            <keepclasseswithmembernames>
+                <method access="native" />
+            </keepclasseswithmembernames>
+
+            <keepclassmembers extends="java.lang.Enum">
+                <method access="public static"
+                    type="**[]"
+                    name="values"
+                    parameters="" />
+                <method access="public static"
+                    type="**"
+                    name="valueOf"
+                    parameters="java.lang.String" />
+            </keepclassmembers>
+
+            <keepnames implements="java.io.Serializable"/>
+            <keepclassmembers implements="java.io.Serializable">
+                <field  access    ="final"
+                    type      ="long"
+                    name      ="serialVersionUID" />
+                <field  access    ="!static !transient"
+                    name      ="**"/>
+                <field  access    ="!private"
+                    name      ="**"/>
+                <method access    ="!private"
+                    name      ="**"/>
+                <method access    ="private"
+                    type      ="void"
+                    name      ="writeObject"
+                    parameters="java.io.ObjectOutputStream" />
+                <method access    ="private"
+                    type      ="void"
+                    name      ="readObject"
+                    parameters="java.io.ObjectOutputStream" />
+                <method type      ="java.lang.Object"
+                    name      ="writeReplace"
+                    parameters="" />
+                <method type      ="java.lang.Object"
+                    name      ="readResolve"
+                    parameters="" />
+            </keepclassmembers>
+
+        </proguard>
+        
+        <copy toDir="dist/${app.name}/${app.name}/${app.name}/modules">
+            <fileset dir="dist/${app.name}/${app.name}/${app.name}/processed_jars"/>
+        </copy>
+        <zip destfile="dist/${app.name}.zip" update="yes" basedir="dist/${app.name}" 
+       includes="${app.name}/${app.name}/modules/*.jar"/>
+
+    </target>
+
+</project>

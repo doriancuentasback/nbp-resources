@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+OpenIDE-Module-Layer: com/mycompany/mygeospatialsystem/branding/layer.xml
+OpenIDE-Module-Localizing-Bundle: com/mycompany/mygeospatialsystem/branding/Bundle.properties
+AutoUpdate-Essential-Module: true

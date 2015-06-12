@@ -1,0 +1,4 @@
+DummyProject operator &lt;&lt;(ostream&amp;,const Customer&amp;)
+DummyProject operator &lt;&lt;(ostream&amp;,const Module&amp;)
+DummyProject operator &lt;&lt;(ostream&amp;,const System&amp;)
+DummyProject operator =(const Module&amp;)

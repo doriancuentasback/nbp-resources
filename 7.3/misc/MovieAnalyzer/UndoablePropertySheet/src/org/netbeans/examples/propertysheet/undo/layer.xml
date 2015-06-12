@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN" "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="Keymaps">
+        <folder name="NetBeans">
+            <file name="DS-7.shadow">
+                <attr name="originalFile" stringvalue="Menu/Window/org-netbeans-examples-propertysheet-undo-WindowAction.instance"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="Edit">
+            <file name="Undo.instance">
+                <attr name="instanceOf" stringvalue="javax.swing.Action"/>
+                <attr name="instanceCreate" methodvalue="org.netbeans.examples.propertysheet.undo.GlobalUndoManager.createUndoAction"/>
+                <attr name="position" intvalue="-200"/>
+            </file>
+            <file name="Redo.instance">
+                <attr name="instanceOf" stringvalue="javax.swing.Action"/>
+                <attr name="instanceCreate" methodvalue="org.netbeans.examples.propertysheet.undo.GlobalUndoManager.createRedoAction"/>
+                <attr name="position" intvalue="-199"/>
+            </file>
+        </folder>
+        <folder name="Window">
+            <!-- Hide the default window action definition -->
+            <file name="org-netbeans-core-windows-actions-GlobalPropertiesAction.shadow_hidden"/>
+            <file name="org-netbeans-examples-propertysheet-undo-WindowAction.instance">
+                <attr name="position" intvalue="720"/>
+            </file>
+        </folder>
+    </folder>
+</filesystem>

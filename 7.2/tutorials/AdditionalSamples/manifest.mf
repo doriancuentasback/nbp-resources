@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+OpenIDE-Module: org.myorg.additionalsamples
+OpenIDE-Module-Localizing-Bundle: org/myorg/additionalsamples/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+

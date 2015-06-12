@@ -1,0 +1,18 @@
+<!DOCTYPE fontscolors PUBLIC
+    "-//NetBeans//DTD Editor Fonts and Colors settings 1.1//EN"
+    "http://www.netbeans.org/dtds/EditorFontsColors-1_1.dtd">
+<fontscolors>
+    <fontcolor name="definition" foreColor="FF990099">
+        <font style="bold" />
+    </fontcolor>
+    <fontcolor name="whitespace" foreColor="black"/>
+    <fontcolor name="operator" foreColor="black"/>
+    <fontcolor name="special" foreColor="FF009999"/>
+    <fontcolor name="identifier" foreColor="FF6600CC"/>
+    <fontcolor name="paren" foreColor="blue"/>
+    <fontcolor name="word" foreColor="FF669933"/>
+    <fontcolor name="brace" foreColor="blue"/>
+    <fontcolor name="bracket" foreColor="orange"/>
+    <fontcolor name="modifier" foreColor="FF336633"/>
+    <fontcolor name="literal" foreColor="FF999999"/>
+</fontscolors>

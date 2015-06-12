@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+OpenIDE-Module: com.mit.movie.viewer
+OpenIDE-Module-Layer: com/mit/movie/viewer/layer.xml
+OpenIDE-Module-Localizing-Bundle: com/mit/movie/viewer/Bundle.properties
+OpenIDE-Module-Requires: org.openide.windows.WindowManager
+OpenIDE-Module-Specification-Version: 1.0
+

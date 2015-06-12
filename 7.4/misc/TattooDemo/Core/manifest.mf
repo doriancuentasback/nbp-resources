@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+OpenIDE-Module: org.myapp.core
+OpenIDE-Module-Localizing-Bundle: org/myapp/core/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+

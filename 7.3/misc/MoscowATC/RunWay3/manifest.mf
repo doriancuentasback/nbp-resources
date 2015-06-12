@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+OpenIDE-Module: org.runway.three
+OpenIDE-Module-Localizing-Bundle: org/runway/tolstoy/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+

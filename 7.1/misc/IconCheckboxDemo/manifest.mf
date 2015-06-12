@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+OpenIDE-Module: org.icon.checkbox.demo
+OpenIDE-Module-Localizing-Bundle: org/icon/checkbox/demo/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+

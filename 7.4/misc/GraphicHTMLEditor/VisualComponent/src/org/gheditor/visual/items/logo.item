@@ -1,0 +1,5 @@
+type=header
+displayName=Logo
+width=400
+height=40
+icon16=org/gheditor/visual/items/icons/logo.gif

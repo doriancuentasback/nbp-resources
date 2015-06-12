@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+OpenIDE-Module: org.sim.start
+OpenIDE-Module-Localizing-Bundle: org/sim/start/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+

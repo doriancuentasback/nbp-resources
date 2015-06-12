@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+OpenIDE-Module: org.netbeans.modules.countries
+OpenIDE-Module-Install: org/netbeans/modules/countries/Installer.class
+OpenIDE-Module-Layer: org/netbeans/modules/countries/layer.xml
+OpenIDE-Module-Localizing-Bundle: org/netbeans/modules/countries/Bundle.properties
+OpenIDE-Module-Requires: org.openide.windows.WindowManager
+OpenIDE-Module-Specification-Version: 1.0
+

@@ -1,0 +1,6 @@
+Manifest-Version: 2.0
+OpenIDE-Module: org.hulles.geewhiz
+OpenIDE-Module-Layer: org/hulles/geewhiz/layer.xml
+OpenIDE-Module-Localizing-Bundle: org/hulles/geewhiz/Bundle.properties
+OpenIDE-Module-Specification-Version: 2.0
+

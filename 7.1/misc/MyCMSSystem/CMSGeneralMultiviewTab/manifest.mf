@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+OpenIDE-Module: org.cms.multiview.general
+OpenIDE-Module-Layer: org/cms/multiview/general/layer.xml
+OpenIDE-Module-Localizing-Bundle: org/cms/multiview/general/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+

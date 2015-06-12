@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+OpenIDE-Module: org.con.license
+OpenIDE-Module-Install: org/con/license/Installer.class
+OpenIDE-Module-Localizing-Bundle: org/con/license/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+

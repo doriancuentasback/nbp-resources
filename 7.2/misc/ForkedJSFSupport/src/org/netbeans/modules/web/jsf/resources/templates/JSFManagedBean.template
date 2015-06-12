@@ -1,0 +1,45 @@
+<#assign licenseFirst = "/*">
+<#assign licensePrefix = " * ">
+<#assign licenseLast = " */">
+<#include "../Licenses/license-${project.license}.txt">
+
+<#if package?? && package != "">
+package ${package};
+
+</#if>
+<#if CDIEnabled??>
+    <#if classAnnotation??>
+import javax.inject.Named;
+    </#if>
+    <#if scopeAnnotation??>
+import javax.enterprise.context.${scopeAnnotation};
+    </#if>
+    <#if passivationCapable??>
+import java.io.Serializable;
+	</#if>
+<#else>
+    <#if classAnnotation??>
+import javax.faces.bean.ManagedBean;
+    </#if>
+    <#if scopeAnnotation??>
+import javax.faces.bean.${scopeAnnotation};
+    </#if>
+</#if>
+
+/**
+ *
+ * @author ${user}
+ */
+<#if classAnnotation??>
+${classAnnotation}
+</#if>
+<#if scopeAnnotation??>
+@${scopeAnnotation}
+</#if>
+public class ${name} <#if passivationCapable??>implements Serializable</#if>{
+
+    /** Creates a new instance of ${name} */
+    public ${name}() {
+    }
+
+}

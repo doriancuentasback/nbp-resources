@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<xs:schema version="1.0"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.eppleton.de/schemas/shiporder"
+           elementFormDefault="qualified">
+
+    <xs:element name="shiporder">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="orderperson" type="xs:string"/>
+                <xs:element name="shipto">
+                    <xs:annotation>
+                        <xs:appInfo>shipto Note</xs:appInfo>
+                        <xs:documentation xml:lang="en">
+                            This shipto element is used to...
+                        </xs:documentation>
+                    </xs:annotation>  
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="name" type="xs:string">
+                                <xs:annotation>
+                                    <xs:appInfo>name Note</xs:appInfo>
+                                    <xs:documentation xml:lang="en">
+                                        This name element is used to...
+                                    </xs:documentation>
+                                </xs:annotation>  
+                            </xs:element>
+                            <xs:element name="address" type="xs:string"/>
+                            <xs:element name="city" type="xs:string"/>
+                            <xs:element name="country" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="item" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="title" type="xs:string"/>
+                            <xs:element name="note" type="xs:string" minOccurs="0"/>
+                            <xs:element name="quantity" type="xs:positiveInteger"/>
+                            <xs:element name="price" type="xs:decimal"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+            <xs:attribute name="orderid" type="xs:string" use="required"/>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema> 

@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+OpenIDE-Module: org.person.domain
+OpenIDE-Module-Localizing-Bundle: org/person/domain/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+

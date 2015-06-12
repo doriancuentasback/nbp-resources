@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+OpenIDE-Module: com.mit.movie.algorithm.sameactoranalysis
+OpenIDE-Module-Localizing-Bundle: com/mit/movie/algorithm/sameactoranalysis/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+

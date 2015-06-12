@@ -1,0 +1,8 @@
+----------------------------------------------------------------
+2011-07-15 09:31:44.328 GMT:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.6.2.1 - (999685): instance a816c00e-0131-2d23-2895-0000022d8e00 
+on database directory /home/geertjan/NetBeansProjects/api-samples/versions/7.0/tutorials/EmbeddedDBManager/CustDB  with class loader ModuleCL@4b82d2[org.derby] 
+Loaded from jar:file:/home/geertjan/NetBeansProjects/api-samples/versions/7.0/tutorials/EmbeddedDBManager/build/cluster/modules/ext/derby.jar!/
+java.vendor=Sun Microsystems Inc.
+java.runtime.version=1.6.0_25-b06
+Database Class Loader started - derby.database.classpath=''

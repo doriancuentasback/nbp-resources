@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+OpenIDE-Module: org.xrk.filesupport
+OpenIDE-Module-Localizing-Bundle: org/xrk/filesupport/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+

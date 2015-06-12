@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+OpenIDE-Module: org.canvas.specification
+OpenIDE-Module-Layer: org/canvas/specification/layer.xml
+OpenIDE-Module-Localizing-Bundle: org/canvas/specification/Bundle.properties
+OpenIDE-Module-Requires: org.openide.windows.WindowManager
+OpenIDE-Module-Specification-Version: 1.0
+

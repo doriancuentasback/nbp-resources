@@ -1,0 +1,5 @@
+type=footer
+displayName=Copyright
+width=400
+height=30
+icon16=org/gheditor/visual/items/icons/copyright.gif

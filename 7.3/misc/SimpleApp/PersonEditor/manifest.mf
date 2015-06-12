@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+OpenIDE-Module: org.person.editor
+OpenIDE-Module-Localizing-Bundle: org/person/editor/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+

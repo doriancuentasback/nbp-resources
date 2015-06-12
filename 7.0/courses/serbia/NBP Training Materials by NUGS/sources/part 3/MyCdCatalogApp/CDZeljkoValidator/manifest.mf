@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+OpenIDE-Module: org.netbeans.cdcatalog.validator.zeljko
+OpenIDE-Module-Localizing-Bundle: org/netbeans/cdcatalog/validator/zeljko/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+

@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+OpenIDE-Module: org.tabbed.toolbar
+OpenIDE-Module-Install: org/tabbed/toolbar/Installer.class
+OpenIDE-Module-Layer: org/tabbed/toolbar/layer.xml
+OpenIDE-Module-Localizing-Bundle: org/tabbed/toolbar/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+

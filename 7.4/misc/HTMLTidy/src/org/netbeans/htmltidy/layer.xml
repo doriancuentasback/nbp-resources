@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN" "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="TaskList">
+        <folder name="Groups">
+            <file name="org.netbeans.htmltidy.warning.instance">
+                <attr name="instanceCreate" methodvalue="org.netbeans.spi.tasklist.Task.createGroup"/>
+                <attr name="localizingBundle" stringvalue="org.netbeans.htmltidy.Bundle"/>
+                <attr name="groupName" stringvalue="tidy-tasklist-warning"/>
+                <attr name="diplayNameKey" stringvalue="LBL_tidy_group"/>
+                <attr name="descriptionKey" stringvalue="HINT_tidy_group"/>
+                <attr name="iconKey" stringvalue="ICON_tidy_group"/>
+                <attr name="position" intvalue="300"/>
+            </file>
+        </folder>
+        <folder name="Scanners">
+            <file name="HTMLTidyFileTaskScanner.instance">
+                <attr name="instanceOf" stringvalue="org.netbeans.spi.tasklist.FileTaskScanner"/>
+                <attr name="instanceCreate" methodvalue="org.netbeans.htmltidy.HTMLTidyFileTaskScanner.create"/>
+            </file>
+            <file name="org-netbeans-modules-maven-hints-pom-TaskListBridge.instance_hidden"/>
+        </folder>
+    </folder>
+</filesystem>

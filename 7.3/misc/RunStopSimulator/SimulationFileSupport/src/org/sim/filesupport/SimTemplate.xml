@@ -1,0 +1,18 @@
+ <Simulation>
+    <!-- note: docu example for a .sub file -->
+    <Docu text="Author: Your Name"/>
+    <World file="pool.xml" />
+
+    <Docu>
+        We have two WorldObjects
+    </Docu>
+    <WorldObjects>
+        <Submarine file="./Mako/mako.xml" hdtfile="./Mako/mako.hdt">
+            <Client file="./Mako/mako.dll"/>
+        </Submarine>
+        <WorldObject file="./buoy/buoy.xml">
+            <Origin x="2.0" y="2.0" z="2.0"/>
+        </WorldObject>
+    </WorldObjects>
+
+</Simulation>

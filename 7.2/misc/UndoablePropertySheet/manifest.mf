@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+OpenIDE-Module: org.netbeans.examples.propertysheet.undo
+OpenIDE-Module-Localizing-Bundle: org/netbeans/examples/propertysheet/undo/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+OpenIDE-Module-Layer: org/netbeans/examples/propertysheet/undo/layer.xml
+

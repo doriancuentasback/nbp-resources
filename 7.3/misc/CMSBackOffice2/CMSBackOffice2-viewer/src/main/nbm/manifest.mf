@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+OpenIDE-Module-Localizing-Bundle: com/mycompany/cmsbackoffice2viewer/Bundle.properties
+OpenIDE-Module-Requires: org.openide.windows.WindowManager

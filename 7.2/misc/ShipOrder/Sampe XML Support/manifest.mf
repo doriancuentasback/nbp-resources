@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+OpenIDE-Module: de.eppleton.demos.xmleditor
+OpenIDE-Module-Layer: de/eppleton/demos/xmleditor/layer.xml
+OpenIDE-Module-Localizing-Bundle: de/eppleton/demos/xmleditor/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+

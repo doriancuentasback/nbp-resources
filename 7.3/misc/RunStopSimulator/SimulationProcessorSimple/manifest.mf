@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+OpenIDE-Module: org.sim.processor.simple
+OpenIDE-Module-Localizing-Bundle: org/sim/processor/simple/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+

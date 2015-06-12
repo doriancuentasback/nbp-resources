@@ -1,0 +1,10 @@
+<!DOCTYPE fontscolors PUBLIC
+    "-//NetBeans//DTD Editor Fonts and Colors settings 1.1//EN"
+    "http://www.netbeans.org/dtds/EditorFontsColors-1_1.dtd">
+<fontscolors>
+    <fontcolor name="word" foreColor="blue"/>
+    <fontcolor name="entity" foreColor="red"/>
+    <fontcolor name="key" foreColor="magenta"/>
+    <fontcolor name="quoted" foreColor="orange"/>
+    <fontcolor name="whitespace" default="whitespace"/>
+</fontscolors>

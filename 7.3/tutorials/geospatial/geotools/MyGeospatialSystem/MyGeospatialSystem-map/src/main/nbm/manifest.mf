@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+OpenIDE-Module-Install: org/geotools/mygeospatialsystem/utils/Installer.class
+OpenIDE-Module-Localizing-Bundle: org/geotools/mygeospatialsystem/Bundle.properties

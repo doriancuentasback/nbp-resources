@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+OpenIDE-Module: org.my.custom.hints
+OpenIDE-Module-Localizing-Bundle: org/my/custom/hints/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+

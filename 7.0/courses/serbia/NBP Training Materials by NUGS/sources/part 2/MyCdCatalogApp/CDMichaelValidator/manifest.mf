@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+OpenIDE-Module: com.netbeans.cdcatalog.validator.michael
+OpenIDE-Module-Localizing-Bundle: com/netbeans/cdcatalog/validator/michael/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+

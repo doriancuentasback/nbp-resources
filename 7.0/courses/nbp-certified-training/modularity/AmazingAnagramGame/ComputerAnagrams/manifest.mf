@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+OpenIDE-Module: com.toy.anagrams.computer
+OpenIDE-Module-Localizing-Bundle: com/toy/anagrams/computer/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+

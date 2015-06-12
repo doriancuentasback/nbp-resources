@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN" "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    
+    <folder name = "canvas">
+        <file name = "Production">
+            <attr name="position" intvalue="30"/>
+            <attr name="actionListener" newvalue="org.canvas.production.OpenProductionCanvas"/>
+        </file>
+    </folder>
+    
+</filesystem>

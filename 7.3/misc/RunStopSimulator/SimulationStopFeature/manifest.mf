@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+OpenIDE-Module: org.sim.stop
+OpenIDE-Module-Localizing-Bundle: org/sim/stop/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+
